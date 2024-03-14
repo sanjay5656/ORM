@@ -24,7 +24,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-### Models.py
+### Models
 ```python
 from django.db import models
 from django.contrib import admin
@@ -41,7 +41,7 @@ class RailwayAdmin(admin.ModelAdmin):
     list_display = ('Train_no','Train_name','Start_station_code','End_station_code','Start_date','End_date')
 
 ```
-### Admin.py
+### Admin
 ```python
 from django.contrib import admin
 from .models import Railway, RailwayAdmin
